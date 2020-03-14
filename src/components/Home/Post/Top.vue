@@ -3,7 +3,9 @@
     <v-list-item-avatar>
       <a>
         <v-avatar size="40" class="primary">
-          <v-icon dark>ion-md-person</v-icon>
+          <v-img
+            :src="`https://api.adorable.io/avatars/40/${author.email}.png`"
+          ></v-img>
         </v-avatar>
       </a>
     </v-list-item-avatar>
@@ -107,7 +109,7 @@ export default class PostTop extends Vue {
     const prettyDate: string = moment
       .utc(this.date)
       .local()
-      .format("MMM Do YYYY, h:mm A");
+      .fromNow();
     return prettyDate;
   }
 

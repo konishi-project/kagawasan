@@ -13,8 +13,7 @@
         colored-border
       >
         Note that using Markdown will import and load the required plugins which
-        may slow down performance. There is no truncation so posts span may get
-        long.
+        may slow down performance.
       </v-alert>
 
       <v-list>
