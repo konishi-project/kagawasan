@@ -4,6 +4,8 @@
     style="border-radius: 25px;"
   >
 
+  <br/>
+
   <img src="https://api.netlify.com/api/v1/badges/c399b53e-998c-4dac-b21e-ebec4934bb54/deploy-status" alt="Netlify">
 </p>
 
