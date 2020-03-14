@@ -89,7 +89,9 @@ export default class Drawer extends Vue {
   }
 
   private currentPage(): number {
-    const index = this.pages.map(e => e.routeName).indexOf(this.$route.name);
+    const routeName: any = this.$route.name;
+    const index = this.pages.map(e => e.routeName).indexOf(routeName);
+
     return index;
   }
 }
