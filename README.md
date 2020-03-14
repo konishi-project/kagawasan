@@ -3,6 +3,8 @@
     width="450"
     style="border-radius: 25px;"
   >
+
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/c399b53e-998c-4dac-b21e-ebec4934bb54/deploy-status)](https://app.netlify.com/sites/konishi/deploys)
 </p>
 
 Konishi's frontend written in Vue.js + Vuetify and Typescript. This is the responsive web application only. Zimmerman (The backend REST API written in Flask Python and RESTPlus) can be found [here.](https://github.com/konishi-project/zimmerman/) 
